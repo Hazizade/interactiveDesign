@@ -1,0 +1,30 @@
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.boxes .box {
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+  border-bottom-right-radius: 10%;
+  border-top-left-radius: 10%;
+  box-shadow: 1px 5px 15px rgb(49, 44, 44);
+  margin-top: 100px;
+}
+.boxes .box i {
+  font-size: 50px;
+  margin: 15px;
+  color: rgb(24, 100, 172);
+}
+.boxes .box p {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+.boxes .box:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}/*# sourceMappingURL=style.css.map */

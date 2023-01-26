@@ -1,0 +1,45 @@
+*{}
+
+
+.boxes{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+    .box{
+        width: 500px;
+        height: 300px;
+        margin: 10px;
+        border-bottom-right-radius: 10%;
+        border-top-left-radius: 10%;
+        box-shadow: 1px 5px 15px rgb(49, 44, 44);
+        margin-top: 100px; 
+        
+        i{
+            font-size: 50px;
+            margin: 15px;
+            color: rgb(24, 100, 172);
+        }
+        
+        p{
+            margin-left: 50px;
+            margin-right: 50px;
+            font-size: 20px;
+            
+        }
+        
+
+        
+        &:hover{
+            transform: scale(1.03);
+            transition: 1s;
+        }
+
+        
+    }
+}
+
+
